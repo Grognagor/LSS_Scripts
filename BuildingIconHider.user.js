@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BuildingIconHider
-// @version      0.0.1
+// @version      0.0.2
 // @description  Gebäude ausblenden auf der Karte
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
@@ -11,17 +11,9 @@
 (function() {
     'use strict';
 
-    var tid = setInterval(mycode, 5000);
+    var tid = setInterval(mycode, 1000);
 
     function mycode() {
-		var images = document.getElementsByTagName('img');
-		var image = null;
-
-		for(var i = 0; i < images.length; ++i) {
-			if(images[i].src.includes("building")){
-				image = images[i];
-				image.style.display = "none";
-			}
-		}
+		$(".leaflet-interactive[src*='building']").hide();
      }
 })();
