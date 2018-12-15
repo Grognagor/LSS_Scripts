@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DeleteObsoleteMissionObjects
 // @version      0.0.1
-// @description  Alte Missionsobjekte werden gelöscht
+// @description  Alte Missionsobjekte werden gelöscht !!! WICHTIG !!! Das Spielverhalten kann beeinträchtigt werden !!! WICHTIG !!!
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
 // @grant        none
