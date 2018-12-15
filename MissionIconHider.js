@@ -8,7 +8,7 @@
 // @namespace    https://github.com/Glaeydar/LSS_Scripts/MissionIconHider.user.js
 // ==/UserScript==
 
-(function () {
+(function() {
     'use strict';
 
     /* Configuration */
