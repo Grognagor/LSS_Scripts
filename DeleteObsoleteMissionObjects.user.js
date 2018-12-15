@@ -15,7 +15,7 @@
 
     function mycode() {
         $('#mission_list > div').each(function () {
-            if($(this).hasClass("finished")){
+            if($(this).css("display") == "none"){
                 $(this).remove();
             }
         });
