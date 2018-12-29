@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DeleteObsoleteMissionObjects
-// @version      0.0.2
+// @version      0.0.3
 // @description  Alte Missionsobjekte werden gelöscht
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
@@ -22,7 +22,7 @@
     var DEBUG = false;
 
     /* DO NOT MODIFY UNLESS YOU KNOW WHAT YOU DO */
-    var tid = setInterval(mycode, 5000);
+    var tid = setInterval(mycode, 30000);
 
     function mycode() {
         $('#mission_list > div').each(function () {
