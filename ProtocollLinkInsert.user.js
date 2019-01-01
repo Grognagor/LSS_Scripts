@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ProtocollLinkInsert
-// @version      0.0.2
+// @version      0.0.3
 // @description  Fügt den Link zum Protokoll ins Verbandsmenü ein
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
