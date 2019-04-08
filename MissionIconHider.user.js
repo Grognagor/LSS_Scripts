@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MissionIconHiding
-// @version      0.0.1
+// @version      0.0.2
 // @description  Missionsicons ausblenden auf der Karte
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
@@ -35,7 +35,7 @@
             }
         }
         catch (err) {
-            console.log(err);
+            console.log("[MissionIconHider] " + err);
         }
     }
 })();
