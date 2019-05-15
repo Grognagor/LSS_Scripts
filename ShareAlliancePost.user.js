@@ -198,7 +198,7 @@
                 messages[i] = messages[i].replace('%REQUIRED_VEHICLES%', requiredVehicles);
             }
         } catch (e){
-            console.log('Error transforming messages: ' + e);
+            console.log('[ShareAlliancePost OG] Error transforming messages: ' + e);
         }
     };
 
