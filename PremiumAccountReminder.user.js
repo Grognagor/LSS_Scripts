@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PremiumAccountReminder
-// @version      0.0.1
+// @version      0.0.2
 // @description  Erinnert an den Ablauf des PremiumAccounts
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
