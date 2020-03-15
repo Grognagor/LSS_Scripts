@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         DeleteObsoleteMissionObjects
-// @version      0.0.3
+// @version      0.0.4
 // @description  Alte Missionsobjekte werden gelöscht
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
+// @include      *://leitstellenspiel.de/
 // @grant        none
 // @namespace    https://github.com/Glaeydar/LSS_Scripts/raw/master/DeleteObsoleteMissionObjects.user.js
 // @updateURL    https://github.com/Glaeydar/LSS_Scripts/raw/master/DeleteObsoleteMissionObjects.user.js
