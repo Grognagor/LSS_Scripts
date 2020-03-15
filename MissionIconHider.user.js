@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         MissionIconHiding
-// @version      0.0.2
+// @version      0.0.3
 // @description  Missionsicons ausblenden auf der Karte
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
+// @include      *://leitstellenspiel.de/
 // @grant        none
 // @namespace    https://github.com/Glaeydar/LSS_Scripts/MissionIconHider.user.js
 // ==/UserScript==
