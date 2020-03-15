@@ -4,6 +4,7 @@
 // @description  Gebäudeicons ausblenden auf der Karte - Wird irgendwann im BuildingIconHider eingepflegt
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
+// @include      *://leitstellenspiel.de/
 // @grant        none
 // @namespace    https://github.com/Glaeydar/LSS_Scripts/BuildingIconHiding.user.js
 // ==/UserScript==
