@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BuildingIconHiding
-// @version      0.0.1
+// @version      0.0.2
 // @description  Gebäudeicons ausblenden auf der Karte - Wird irgendwann im BuildingIconHider eingepflegt
 // @author       Glaeydar
 // @include      *://www.leitstellenspiel.de/
