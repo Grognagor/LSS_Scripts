@@ -4,6 +4,7 @@
 // @version      3.4.0
 // @author       jalibu, JuMaHo, angepasst von Glaeydar
 // @include      https://www.leitstellenspiel.de/missions/*
+// @include      https://leitstellenspiel.de/missions/*
 // @namespace    https://github.com/Glaeydar/LSS_Scripts/ShareAlliancePost.user.js
 // @updateURL    https://github.com/Glaeydar/LSS_Scripts/raw/master/ShareAlliancePost.user.js
 // ==/UserScript==
