@@ -60,7 +60,7 @@
         var wayQuery = 'way[' + overpassQuery + '](' + bounds + ');';
         var relationQuery = 'relation[' + overpassQuery + '](' + bounds + ');';
         var query = '?data=[out:xml][timeout:25];(' + nodeQuery + wayQuery + relationQuery + ');out body;>;out skel qt;';
-        var baseUrl = 'http://overpass-api.de/api/interpreter';
+        var baseUrl = 'https://overpass-api.de/api/interpreter';
         var resultUrl = baseUrl + query;
         return resultUrl;
     }
