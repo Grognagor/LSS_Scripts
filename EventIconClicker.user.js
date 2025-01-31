@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         Event Icon Clicker
+// @namespace    https://github.com/Grognagor/LSS_Scripts/
+// @version      1.1
+// @author       Grognagor
+// @match        https://www.leitstellenspiel.de/missions*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    function clickEasterEgg() {
+        let eggLink = document.querySelector('a[href*="/missions/"][href*="/claim_found_object_sync"]');
+        if (eggLink) {
+            console.log("Clicking the Easter Egg");
+            eggLink.click();
+        }
+    }
+
+    clickEasterEgg()
+})();
