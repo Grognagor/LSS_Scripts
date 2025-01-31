@@ -13,7 +13,6 @@
     function clickEasterEgg() {
         let eggLink = document.querySelector('a[href*="/missions/"][href*="/claim_found_object_sync"]');
         if (eggLink) {
-            console.log("Clicking the Easter Egg");
             eggLink.click();
         }
     }
