@@ -21,7 +21,6 @@
     function closeSuccessBox() {
         let closeButton = document.querySelector('.alert.alert-success .close');
         if (closeButton) {
-            console.log("Closing success box");
             closeButton.click();
         }
     }
