@@ -14,6 +14,15 @@
         let eggLink = document.querySelector('a[href*="/missions/"][href*="/claim_found_object_sync"]');
         if (eggLink) {
             eggLink.click();
+            setTimeout(closeSuccessBox, 250);
+        }
+    }
+
+    function closeSuccessBox() {
+        let closeButton = document.querySelector('.alert.alert-success .close');
+        if (closeButton) {
+            console.log("Closing success box");
+            closeButton.click();
         }
     }
 
